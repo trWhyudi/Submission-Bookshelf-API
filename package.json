@@ -1,0 +1,22 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Submission Dicoding bookshelf API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "start-dev": "nodemon src/server.js",
+    "lint": "eslint ."
+  },
+  "keywords": [],
+  "author": "Tri Wahyudi",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^21.4.3",
+    "nanoid": "^3.3.11"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "nodemon": "^3.1.10"
+  }
+}
